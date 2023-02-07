@@ -1,0 +1,14 @@
+{
+  "name": "origin",
+  "options": {
+    "value": {
+      "originType": "CUSTOMER",
+      "hostname": "example.com",
+      "forwardHostHeader": "REQUEST_HOST_HEADER",
+      "cacheKeyHostname": "ORIGIN_HOSTNAME",
+      "compress": true,
+      "tcipEnabled": false,
+      "httpPort": 80
+    }
+  }
+}
